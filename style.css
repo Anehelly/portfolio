@@ -11,9 +11,8 @@
 
 
 body{
-    background-color: black;
-    height: 100vh;/*altura 100% da tela*/
-    box-sizing: border-box;/*nenhuma tag filho vai ultrapassar a tag pai*/
+    background-color: black;    
+    box-sizing: border-box;
 }
 
 h1{
@@ -24,12 +23,32 @@ p{
     color: white;
 }
 
+.meunome:hover{
+    color: #22D4FD;
+}
+
 img{
 width: 350px;
 top: 235px;
 left: 1030px;
 border-radius:16px;
 
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 15%;
+   
+}
+
+.container__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
 }
 
 .container__links__link{
@@ -49,26 +68,18 @@ border-radius:16px;
     border: 2px solid #22D4FD;
 }
 
-.container__links{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    
+
+.container__links__link:hover{
+    background-color: #272727;
 }
+
+
 
 .destaque{
     color: #22d4fd;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;/*Criamos uma section para separar o texto da imagem, e adicionando esse parametro criamos um espaço entre os dois elementos*/
-    margin: 10% 15%;
-   
-}
+
 
 .container__conteudo{
     width: 615px;
@@ -100,4 +111,17 @@ border-radius:16px;
     width: 32px;
     height: 32px;
   
+}
+
+.rodape{
+    background-color: #22D4FD;    
+    padding: 24px;
+    text-align: center;     
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.rodape > p{
+    color: #000000;
 }
