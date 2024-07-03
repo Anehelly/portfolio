@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: black;
+    height: 100vh;/*altura 100% da tela*/
+    box-sizing: border-box;/*nenhuma tag filho vai ultrapassar a tag pai*/
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+img{
+width: 350px;
+top: 235px;
+left: 1030px;
+border-radius:16px;
+
+}
+
+.container__links__link{
+    display: flex;
+    justify-content: center;   
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: 2px solid #22D4FD;
+}
+
+.container__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.destaque{
+    color: #22d4fd;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/*Criamos uma section para separar o texto da imagem, e adicionando esse parametro criamos um espaço entre os dois elementos*/
+    margin: 10% 15%;
+   
+}
+
+.container__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+
+.container__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.container__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container__links__subtitulo{
+    color: white;    
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container_link__logo{
+    width: 32px;
+    height: 32px;
+  
+}
