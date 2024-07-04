@@ -121,6 +121,7 @@ border-radius:16px;
 .container__texto{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+    color: white;
 }
 
 .container__links__subtitulo{
@@ -142,10 +143,21 @@ border-radius:16px;
     text-align: center;   
     font-weight: 400;
     font-size: 24px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .rodape > p{
     color: #000000;
 }
+
+ul > li > a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
+span{
+    font-size: 15px;
+}
+
 
 
