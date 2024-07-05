@@ -108,7 +108,8 @@ border-radius:16px;
 
 
 .container__links__link:hover{
-    background-color: var(--cor-hover);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 
