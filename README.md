@@ -2,7 +2,6 @@
 
 Olá bem vindo ao meu projeto de portfolio, criado durante o curso de HTML e CSS da pllataforma Alura.
 
-![image](https://1drv.ms/i/s!Au8o1-FH7cDKwWuHaHdI3VBzKUc6?e=nJybgV)
  
 ## Ferramentas utilizadas:
 
