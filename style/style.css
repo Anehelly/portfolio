@@ -150,8 +150,7 @@ ul > li > a{
 
 @media (max-width: 1200px){
     
-  .cabecalho{
-    padding-left: 31%;
+  .cabecalho{    
     padding: 10%;
   }
 
