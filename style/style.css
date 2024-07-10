@@ -163,10 +163,21 @@ ul > li > a{
     flex-direction: column-reverse;
   }
 
+  .container{
+    padding: 5%;
+    
+  }
+
+  .container__conteudo{
+    width: auto;
+  }
+
   .container__titulo{
     padding-top: 40px;
     font-size: 2em;
   }
+
+  
 
  
 }
