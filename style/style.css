@@ -176,9 +176,14 @@ ul > li > a{
     font-size: 2em;
   }
 
-  
+}
 
- 
+@media (max-width: 415px){
+    .cabecalho__menu__link{ 
+        font-size:1.25rem;   
+        
+        
+      }
 }
 
 
